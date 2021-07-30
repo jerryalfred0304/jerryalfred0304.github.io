@@ -1,0 +1,166 @@
+/* 列表页专有css */
+
+.nav {
+    overflow: hidden;
+}
+
+.sk {
+    position: absolute;
+    top: 45px;
+    left: 185px;
+    border-left: 1px solid #c81523;
+    padding: 4px 0 0 14px;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    color: #000;
+    font-size: 16px;
+    padding: 0 28px;
+    font-weight: 700;
+    line-height: 47px;
+}
+
+.sk_con {
+    float: left;
+}
+
+.sk_con ul li {
+    float: left;
+}
+
+.sk_con ul li a {
+    display: block;
+    font-size: 14px;
+    padding: 0 24px;
+    line-height: 49px;
+}
+
+.sk_con ul li:last-child a::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+}
+
+.sk_bd ul li {
+    width: 290px;
+    height: 460px;
+    border: 1px solid transparent;
+    overflow: hidden;
+    float: left;
+    margin-right: 13px;
+}
+
+.sk_bd ul li img {
+    width: 290px;
+    height: 100%;
+}
+
+.sk_bd ul li h3 {
+    height: 50px;
+    margin-left: 13px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.price {
+    height: 30px;
+    margin-left: 13px;
+    line-height: 40px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.price h4 {
+    float: left;
+    font-size: 22px;
+    color: #c81523;
+}
+
+.price em {
+    font-size: 14px;
+}
+
+.price span {
+    color: #a4a4a4;
+    font-size: 14px;
+    text-decoration: line-through;
+    margin-left: 8px;
+    line-height: 42px;
+}
+
+.sale {
+    height: 30px;
+    width: 290px;
+    position: relative;
+    line-height: 30px;
+    padding: 0 13px;
+    margin-bottom: 5px;
+}
+
+.sale .yishou {
+    float: left;
+    font-size: 14px;
+    vertical-align: bottom;
+}
+
+.pro_out {
+    position: absolute;
+    float: left;
+    height: 13px;
+    width: 124px;
+    margin: 0px 12px;
+    border: 1px solid #c81523;
+    border-radius: 7px;
+    top: 9px;
+    left: 69px;
+}
+
+.pro_in {
+    height: 12px;
+    width: 87%;
+    border-radius: 5px;
+    background-color: #c81523;
+    transition: width 1s ease 0.1s;
+    border: 1px solid #c81523;
+}
+
+.pro_out:hover .pro_in {
+    width: 100%;
+}
+
+.sale .rest {
+    font-size: 14px;
+    float: right
+}
+
+.success {
+    background-color: #c81523;
+    overflow: hidden;
+    line-height: 45px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.success a {
+    display: block;
+    height: 45px;
+    width: 100%;
+    font-size: 20px;
+    color: #fff;
+}
+
+.sk_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.sk_bd ul li:hover {
+    border: 1px solid #c81523;
+}
